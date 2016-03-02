@@ -1,0 +1,15 @@
+If you are using Linux, use IITB CRAN Mirror
+
+1.
+If you have error:
+configuration failed for package ‘RCurl'
+
+http://askubuntu.com/a/428379/395094
+
+
+2.
+If you have error:
+dependency ‘testthat’ is not available for package ‘swirl’
+
+http://stackoverflow.com/a/26950563/3983039
+
