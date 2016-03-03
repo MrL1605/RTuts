@@ -10,22 +10,25 @@ c('V', 'I', 'T', "University")
 
 y <- c(1L, "string", FALSE)
 # ?guess
+y
 class(y)
 
 y <- c(1L, 2, 5)
 # ?guess
+y
 class(y)
 
 x <- c(1, NULL, 25, 6)
 length(x)
 
+# Sequences
 1:10
 9:5
 seq(1,10)
 seq(9,2,-2)
 sent <- c("walk","on","the","planet")
 sent[0]
-# Not same as of Python
+# Not same as of Python or many Languages
 sent[2]
 sent[3] <- "that"
 sent
@@ -49,9 +52,17 @@ a * 2
 a / 2
 a + 2
 b <- c(4, 5, 10)
-a-b
-b <- c(5,10)
-a-b
-b <- c(5)
-a-b
-a == c(10,25,34)
+a - b
+b <- c(5, 10)
+a - b
+a == c(10, 25, 34)
+
+b <- c(5, 10, 25)
+plot(a,b)
+
+# Handling NAs
+sum(25,NULL, 25)
+sum(25,NaN, 25)
+sum(25,NaN, 25, na.rm = TRUE)
+
+
