@@ -14,6 +14,7 @@ qplot(weights, prices, color = types)
 
 
 # Other Topics yet left :
+# Factors
 # Functions
 # Class
 # 

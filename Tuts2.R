@@ -33,6 +33,7 @@ sent[2]
 sent[3] <- "that"
 sent
 sent[2:4] <- c("over", "that", "place")
+c(1:3,100,1000)
 
 # Naming
 ranks <- 1:3
