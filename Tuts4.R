@@ -1,7 +1,7 @@
 
 # Summary Statistics
 
-# sample data 
+# Sample data 
 limbs <- c(4, 3, 4, 3, 2, 4, 4, 14)
 names(limbs) <- c('One-Eye', 'Peg-Leg', 'Smitty', 'Hook', 
                     'Scooter', 'Dan', 'Mikey', 'Davy Jones')
@@ -9,6 +9,8 @@ names(limbs) <- c('One-Eye', 'Peg-Leg', 'Smitty', 'Hook',
 mean(limbs)
 barplot(limbs)
 abline(h = mean(limbs))
+a <- 1:12
+b <- matrix(a, 1, 12)
 plot(a,b)
 abline(h = mean(limbs))
 
@@ -29,6 +31,7 @@ sum((limbs - mean(limbs)) ** 2)
 sum((limbs - mean(limbs)) ** 2) / (n-1)
 sqrt(sum((limbs - mean(limbs)) ** 2) / (n-1))
 sd(limbs)
+
 
 
 

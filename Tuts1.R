@@ -1,4 +1,6 @@
 
+# bit.ly/mrl_rtuts
+
 # Resources
 # John Hopkins University
 # https://www.coursera.org/learn/r-programming/
@@ -53,7 +55,7 @@ class(y)
 
 # Get help of specific functions
 help("median")
-# Get examples
+# Get example
 example("median")
 
 # Files

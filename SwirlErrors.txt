@@ -1,4 +1,7 @@
-If you are using Linux, use IITB CRAN Mirror
+
+Below are the Errors you might face while  
+
+If you are using Linux, don't install using apt-get, use IITB CRAN Mirror to get Deb files of R v3.2.1
 
 1.
 If you have error:

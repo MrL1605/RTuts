@@ -1,7 +1,6 @@
 
 # Matrices
 
-
 matrix(1, 3, 4)
 # Matrix 3 rows by 4 columns, 
 # with all its fields set to 0.
