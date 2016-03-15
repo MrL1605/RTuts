@@ -98,5 +98,20 @@ class(v)
 
 # So Python or R?
 
+######################################################3
+# Summary
 
+print("Summary")      # Printing
+
+3 < -4                # TRUE
+
+x <- 4                # Assignment
+
+sum(2,5,2)            # Some Functions
+sqrt(25)
+rep("Yes", times = 5)
+help("vector")
+example("data.frame")
+
+class(25L)            # Get Data Type
 
