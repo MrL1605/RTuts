@@ -3,7 +3,7 @@
 
 matrix(1, 3, 4)
 # Matrix 3 rows by 4 columns, 
-# with all its fields set to 0.
+# with all its fields set to 1.
 
 # To convert vector into matrix
 a <- 1:12

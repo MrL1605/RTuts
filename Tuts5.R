@@ -10,8 +10,8 @@ types <- c("gold", "silver", "gems", "gold", "gems")
 treasure <- data.frame(weights, prices, types)
 treasure
 treasure[[2]]
-treasure[["weights"]]
-treasure[[2,2]]
+treasure[["weights"]]     # Took var names as col names
+treasure[[1,2]]           # R, C
 
 
 list.files()
@@ -24,8 +24,11 @@ read.table("infantry.txt", sep = "\t", header = TRUE)
 
 targets <- read.csv("targets.csv")
 infantry <- read.table("infantry.txt", sep="\t", header=TRUE)
+targets
+infantry
 merge(x = targets, y = infantry)
-# Joins the table with same col name. Not data
+# Inner Joins the table with same col name. Not data
+merge(x = targets, y = infantry, all.y = TRUE)
 
 
 # Sample data
